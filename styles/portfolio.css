@@ -1,10 +1,45 @@
-body {
-  background-color: rgb(195, 169, 134);
+:root {
+  --primary-color: #fff4e7;
+  --secondary-color: #ffa726;
+  --third-color: #838b9e;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fff4e7;
+  text-align: center;
+  color: #ffa726;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+#greeting {
+  font-size: 60px;
   font-family: "DM Sans", sans-serif;
 }
 p {
   font-family: "Poppins", sans-serif;
+}
+
+footer {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.ex-work {
+  max-width: 80%;
+  margin: 0 auto;
+  color: var(--third-color);
+}
+.work-img {
+  border-radius: 15px;
+  border: solid 1px var(--secondary-color);
+}
+.so-media {
+  text-decoration: none;
+}
+.navbar-nav {
+  margin-left: auto;
+  padding: 10px;
 }
