@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #fff4e7;
+  --secondary-color: #ffa726;
+  --third-color: #838b9e;
+  --box-shadow: 0 5px 10px rgba(34, 33, 33, 0.1);
+}
+
 .hovereffect2 {
   width: 100%;
   height: 100%;
@@ -8,6 +15,9 @@
   cursor: default;
 }
 
+.overlay2 a {
+  text-decoration-color: var(--secondary-color);
+}
 .hovereffect2 .overlay2 {
   width: 100%;
   height: 100%;
