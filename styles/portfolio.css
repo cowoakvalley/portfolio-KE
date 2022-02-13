@@ -8,13 +8,13 @@
   color: #ffa726 !important;
 }
 .hero {
+  width: 100%;
   font-family: "DM Sans", sans-serif;
   padding-top: 80px;
   padding-bottom: 70px;
   background-color: #fff4e7;
   text-align: center;
   margin-top: 70px;
-  margin-bottom: 70px;
 }
 
 .hero h1 {
@@ -156,18 +156,23 @@
 footer {
   max-width: 80%;
   margin: 0 auto;
-}
-.border-top {
-  border-color: var(--secondary-color) !important;
+  border-top: solid 1px;
+  border-color: var(--secondary-color);
 }
 
 .footer-list a {
   opacity: 60%;
 }
+
+.links:hover {
+  color: var(--secondary-color) !important;
+}
+
 .ex-work {
   max-width: 80%;
   margin: 0 auto;
   color: var(--third-color);
+  margin-top: 60px;
   margin-bottom: 60px;
   font-family: "DM Sans", sans-serif;
 }
@@ -186,4 +191,8 @@ footer {
 .navbar-nav {
   margin-left: auto;
   padding: 10px;
+}
+
+.work-images {
+  width: 100%;
 }
