@@ -39,7 +39,6 @@
 }
 
 .hovereffect2 h2 {
-  text-transform: uppercase;
   color: #fff;
   text-align: center;
   position: static;
@@ -51,6 +50,7 @@
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: 10px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .hovereffect2 p {
@@ -75,4 +75,5 @@
   -ms-transform: translatey(0);
   -webkit-transform: translatey(0);
   transform: translatey(0);
+  font-family: "DM Sans", sans-serif;
 }

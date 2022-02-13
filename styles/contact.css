@@ -1,0 +1,31 @@
+.hero1 {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 170px;
+  font-family: "DM Sans", sans-serif;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: #fff4e7;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.hero h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: #ffa726;
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
+.hero1 p {
+  color: #ffa726;
+  font-size: 30px;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#mail {
+  font-size: 80px;
+}
