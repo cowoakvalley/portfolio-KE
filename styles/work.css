@@ -5,8 +5,28 @@
   --box-shadow: 0 5px 10px rgba(34, 33, 33, 0.1);
 }
 
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero {
+    margin-bottom: 20px;
+  }
+  .hovereffect2 img {
+    margin-bottom: 20px;
+  }
+  footer a {
+    font-size: 7px;
+  }
+}
+
 .work-section {
   scroll-snap-align: center;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 .container {

@@ -5,6 +5,19 @@
   --box-shadow: 0 5px 10px rgba(34, 33, 33, 0.1);
 }
 
+@media (max-width: 576px) {
+  .about img {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .img-thumbnail {
+    max-width: 10% !important;
+    margin-bottom: 0px !important;
+  }
+}
+
 .about {
   margin: 120px auto;
   max-width: 80%;

@@ -1,3 +1,19 @@
+:root {
+  --primary-color: #fff4e7;
+  --secondary-color: #ffa726;
+  --third-color: #838b9e;
+  --box-shadow: 0 5px 10px rgba(34, 33, 33, 0.1);
+}
+
+@media (max-width: 576px) {
+  .hero1 p {
+    font-size: 16px !important;
+  }
+  footer a {
+    font-size: 10px;
+  }
+}
+
 .hero1 {
   width: 70%;
   margin: 0 auto;
@@ -5,7 +21,7 @@
   font-family: "DM Sans", sans-serif;
   padding-top: 80px;
   padding-bottom: 70px;
-  background-color: #fff4e7;
+  background-color: var(--primary-color);
   text-align: center;
   margin-top: 100px;
   margin-bottom: 40px;
@@ -14,17 +30,26 @@
 .hero h1 {
   animation-duration: 3s;
   animation-name: slidein;
-  color: #ffa726;
+  color: var(--secondary-color);
   font-size: 100px;
   margin-bottom: 50px;
 }
 
 .hero1 p {
-  color: #ffa726;
+  color: var(--secondary-color);
   font-size: 30px;
   animation-name: fadein;
   animation-duration: 3s;
   animation-fill-mode: forwards;
+}
+
+.hero1 a,
+a:hover {
+  color: var(--secondary-color);
+}
+
+.hero1 a:hover {
+  color: var(--secondary-color);
 }
 
 #mail {

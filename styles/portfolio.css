@@ -5,6 +5,18 @@
   --box-shadow: 0 5px 10px rgba(34, 33, 33, 0.1);
 }
 
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+  footer a {
+    font-size: 10px;
+  }
+}
+
 .my-name {
   color: #ffa726 !important;
 }
@@ -13,6 +25,8 @@
   font-family: "DM Sans", sans-serif;
   padding-top: 80px;
   padding-bottom: 70px;
+  padding-left: 0px;
+  padding-right: 0px;
   background-color: #fff4e7;
   text-align: center;
   margin-top: 70px;
@@ -31,6 +45,7 @@
   animation-name: fadein;
   animation-duration: 7s;
   animation-fill-mode: forwards;
+  padding: 0px 10px;
 }
 
 @keyframes fadein {
